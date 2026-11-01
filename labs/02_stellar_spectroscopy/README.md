@@ -1,5 +1,7 @@
 # Stellar spectroscopy
 
+**Course-provided 2026 teaching notebook:** Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro)). **Completed student analysis and extensions:** Elisavet Pavlidi. The [public earlier teaching material](https://github.com/gevas-astro/ASTRO_Python_tutotial/tree/main/Spectral_Lines) credits M. Papachristou, G. Vasilopoulos and D. Hatzidimitriou. See [full source credits](../../ACKNOWLEDGEMENTS.md).
+
 ## Aim
 
 Compare stellar spectra, measure the Hα equivalent width from O5 to M5 and estimate the F0 excitation temperature from Hδ and Paδ.

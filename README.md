@@ -2,7 +2,9 @@
 
 **Elisavet Pavlidi · Department of Physics, NKUA · 2026–2027**
 
-My astrophysics laboratory work: analysis notebooks, figures and final reports.
+My completed astrophysics laboratory analyses, based on teaching notebooks by **Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro))**.
+
+This collection contains my selected parameters, measurements, analysis extensions, figures and final reports. See [original notebook sources and teaching contributors](ACKNOWLEDGEMENTS.md) for attribution and source-specific permissions notes.
 
 | Exercise | Analysis | Report |
 | --- | --- | --- |

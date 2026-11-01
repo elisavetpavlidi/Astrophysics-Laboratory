@@ -5,4 +5,25 @@ type: software
 authors:
   - family-names: Pavlidi
     given-names: Elisavet
-abstract: "Undergraduate astrophysics laboratory analyses of NGC 300 ULX-1 and stellar spectra."
+abstract: "Student astrophysics laboratory analyses of NGC 300 ULX-1 and stellar spectra, based on credited teaching notebooks."
+references:
+  - type: software
+    title: "LAB_Xray_2026_GR.ipynb"
+    authors:
+      - family-names: Vasilopoulos
+        given-names: Georgios
+    year: 2026
+    version: "e3a7ab9b49ca4ae22becdcb2ff729af26fadd258"
+    url: "https://github.com/gevas-astro/EKPA_LAB2022W_XRay/blob/e3a7ab9b49ca4ae22becdcb2ff729af26fadd258/LAB_Xray_2026_GR.ipynb"
+    date-accessed: "2026-11-01"
+  - type: software
+    title: "Spectral_Lines / LabSpectra_v4.ipynb: public spectroscopy teaching material"
+    authors:
+      - family-names: Papachristou
+        given-names: "M."
+      - family-names: Vasilopoulos
+        given-names: Georgios
+      - family-names: Hatzidimitriou
+        given-names: Despina
+    url: "https://github.com/gevas-astro/ASTRO_Python_tutotial/blob/main/Spectral_Lines/LabSpectra_v4.ipynb"
+    date-accessed: "2026-11-01"

@@ -1,5 +1,7 @@
 # NGC 300 ULX-1
 
+**Original teaching notebook:** Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro)), [*LAB_Xray_2026_GR.ipynb*](https://github.com/gevas-astro/EKPA_LAB2022W_XRay/blob/e3a7ab9b49ca4ae22becdcb2ff729af26fadd258/LAB_Xray_2026_GR.ipynb) (2026). **Completed student analysis and extensions:** Elisavet Pavlidi. See [source credits and permissions](../../ACKNOWLEDGEMENTS.md).
+
 ## Aim
 
 Measure the pulsar spin frequency and its evolution from NuSTAR events, then estimate the accretion rate and surface magnetic field using the laboratory model.

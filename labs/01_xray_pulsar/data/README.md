@@ -11,3 +11,7 @@ Place this file in this directory. Observation ID: `30202035002`. The supplied r
 The original event file was not among the recovered or supplied files. It has not been replaced with synthetic data. The timing notebook contains saved results, and the separate recalculation script runs from those fitted values.
 
 Use the same processed, barycentrically corrected event file to reproduce the saved analysis. A newly downloaded uncorrected event file requires its own extraction, calibration and barycentric correction; renaming it is insufficient.
+
+## Upstream source
+
+The required corrected file is publicly listed in [Georgios Vasilopoulos’s original laboratory repository](https://github.com/gevas-astro/EKPA_LAB2022W_XRay/blob/main/nu30202035002A01_cl_bary.evt.gz). It is not bundled in this student repository. Use that upstream source and its accompanying notebook to identify the intended input; see the root acknowledgements for the source-specific permissions status.

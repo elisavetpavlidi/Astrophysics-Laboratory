@@ -257,12 +257,17 @@
     "file": "labs/01_xray_pulsar/analysis.ipynb",
     "source": "LAB_Xray_2026_GR_ep.ipynb",
     "source_sha256": "31f3366e33872d66ed6b038baee8b47b8a538eb298b7d08a3bee7dd39f72de20",
-    "changes": "Student number removed. Added introduction, portable lab-folder setup and explicit input-file check; retained scientific cells and saved outputs."
+    "changes": "Student number removed. Added introduction, portable lab-folder setup and explicit input-file check; retained scientific cells and saved outputs. Original teaching author and source citation added to Markdown introduction and notebook metadata on 2026-11-01; code cells and outputs unchanged."
   },
   {
     "file": "labs/02_stellar_spectroscopy/analysis.ipynb",
     "source": "Stellar_Spectroscopy_2026_EP_Continuum_Review.ipynb",
     "source_sha256": "28fc8dee32e00a3534b3e4e398610477ff691df54f9a79dbc97702720027317f",
-    "changes": "Created runnable presentation from supplied measurement cells and F0 addendum; dependency order repaired, exploratory overwrite removed, result exports added. Scientific functions and chosen windows retained."
+    "changes": "Created runnable presentation from supplied measurement cells and F0 addendum; dependency order repaired, exploratory overwrite removed, result exports added. Scientific functions and chosen windows retained. Original teaching author and source citation added to Markdown introduction and notebook metadata on 2026-11-01; code cells and outputs unchanged."
+  },
+  {
+    "file": "third_party/Gevas-ASTRO-Python-MIT-LICENSE.txt",
+    "source": "https://github.com/gevas-astro/ASTRO_Python_tutotial/blob/main/LICENSE",
+    "changes": "Upstream MIT licence retained verbatim. Applies to that upstream source; not asserted to license the separate X-ray repository or the later 2026 course copy."
   }
 ]
