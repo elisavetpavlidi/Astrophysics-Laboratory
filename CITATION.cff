@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you refer to this laboratory work, please acknowledge the author and cite the original data sources listed in the reports."
+title: "Astrophysics Laboratory"
+type: software
+authors:
+  - family-names: Pavlidi
+    given-names: Elisavet
+abstract: "Undergraduate astrophysics laboratory analyses of NGC 300 ULX-1 and stellar spectra."

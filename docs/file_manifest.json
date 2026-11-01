@@ -1,0 +1,268 @@
+[
+  {
+    "file": "labs/01_xray_pulsar/report/report.pdf",
+    "source": "Astrophysics_Lab_Elisavet_Pavlidi.pdf",
+    "source_sha256": "6be9ee49e33a73ade0fce973c28c85d9d3e4e511c9137b44d609729da76833c2",
+    "changes": "Student number redacted; author metadata set. Scientific text, references and figures retained."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/report/report.pdf",
+    "source": "Astro_Lab_Spectroscopy_Elisavet_Pavlidi.pdf",
+    "source_sha256": "76bdb0b02921a64c066aa1c77d837a35b13f84444ee6e3e8b1a75e0d58df38bb",
+    "changes": "Student number redacted; author metadata set. Scientific text, references and figures retained."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/01_source_image.png",
+    "source": "01_source_image.png",
+    "source_sha256": "6055d2b7593fb0112a350afda7d890ffab359f85ed356ba5c39d6d19fac468de",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/02_source_region.png",
+    "source": "02_source_region.png",
+    "source_sha256": "2c232ce92e22c382b8c00ac02bed7f469d6663a2402be49e0d2f5b9f80d92da0",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/03_lightcurve_first20ks.png",
+    "source": "03_lightcurve_first20ks.png",
+    "source_sha256": "c1a1f8cabf4a9e268fecf4a0d27204dc30a066382165684077bfaf0346b3e434",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/04_folded_pulse_profiles.png",
+    "source": "04_folded_pulse_profiles.png",
+    "source_sha256": "35ba22f33ac75b5b6ee3c968cb39a2657f2f8f44d40b8beb77fed7df3c3ee5f1",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/05_full_observation_periodogram.png",
+    "source": "05_full_observation_periodogram.png",
+    "source_sha256": "e426b74ee73662c2daf1bfa78841240fff429fd0e471385bd4c69f5e9a473273",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/06_early_periodogram_aliases.png",
+    "source": "06_early_periodogram_aliases.png",
+    "source_sha256": "7bbb55e4d36c47558ff3aaef9f8a2f5112a707285244dec1ce1b5d809b994cda",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/07_early_late_periodogram_comparison.png",
+    "source": "07_early_late_periodogram_comparison(2).png",
+    "source_sha256": "ef398337e08344d4defe395b4877a1db1acdbf67c43517956dea45a223469049",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/08_12_segment_periodograms.png",
+    "source": "08_12_segment_periodograms.png",
+    "source_sha256": "8189e5bc115c1ac465dc63a964414802d7cfba5a26435558784a28664b4e021f",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/09_frequency_evolution_points.png",
+    "source": "09_frequency_evolution_points.png",
+    "source_sha256": "621f95839f5344ee3d630b52aea43ed68113da2838bd82b7b46045de07e1138c",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/10_final_frequency_fit_residuals.png",
+    "source": "10_final_frequency_fit_residuals(1).png",
+    "source_sha256": "a6ddc10333fab54c77d768d1878ba283830ebfe84ceed3aef6b2e5ae2e496e1b",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/figures/11_magnetic_field_sensitivity.png",
+    "source": "11_magnetic_field_sensitivity.png",
+    "source_sha256": "129ecd79cc89ec83407c53454f2fb5385bc27315ba106bdc26218ea940fa1629",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/fig_selected_spectra_4_revised.png",
+    "source": "fig_selected_spectra_4_revised.png",
+    "source_sha256": "2b0717fd8711900802048f7fab8091a2fac60e3f4fb0bacee3130ec9daf174de",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/fig_selected_spectra_4_revised.pdf",
+    "source": "fig_selected_spectra_4_revised.pdf",
+    "source_sha256": "c22f2c903ce470dd92286238559dbe693f3b315f8618c57f68b19f6bd10fe582",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/F0_Hdelta_report.png",
+    "source": "F0_Hdelta_report.png",
+    "source_sha256": "69d3389a8feb4a2f970a2c20cb5350f34a6f25469bb2858b62f0b380652e2512",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/F0_Padelta_report.png",
+    "source": "F0_Padelta_report.png",
+    "source_sha256": "1abdfaaa03123ace25172e74369861758e5ad1ce89ef1353bd5da6c7a4f63e9b",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/HA_EW_comparison_EP.png",
+    "source": "HA_EW_comparison_EP.png",
+    "source_sha256": "173016701c7ad2bacb41be5644a5668f7697edea16ca0472380c4dc606c02cc3",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/figures/HA_detailed_4stars_EP.png",
+    "source": "HA_detailed_4stars_EP.png",
+    "source_sha256": "64d5bf4a6a60746aecc664c6871fdb660fb59770afd79c4ccd80b2aa1453e64a",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/results/F0_Hdelta_Padelta_results_EP.csv",
+    "source": "F0_Hdelta_Padelta_results_EP.csv",
+    "source_sha256": "048b7ea114666e68b29da486e2644eed7c498566aaad2909b3181117ed6ea05a",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/results/HA_continuum_windows_EP.csv",
+    "source": "HA_continuum_windows_EP.csv",
+    "source_sha256": "2c288a2cd3407711e3133ce39aef5f707e75892f9e3a2c2925a817b72dd809fb",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/source/F0_Hd_Pad_report_cell.py",
+    "source": "F0_Hd_Pad_report_cell.py",
+    "source_sha256": "b1674fcded9b75cf280a30108bf9db81d28174a917952fd9e55d9876396b10ff",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/source/F0_measure_line_optional_bounds.py",
+    "source": "F0_measure_line_optional_bounds.py",
+    "source_sha256": "1ead65afd951781f7ed33fe8a4c273bd6ffab9a8d3dca004747ea04bef21f964",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/source/stellar_spectroscopy_original.ipynb",
+    "source": "Stellar_Spectroscopy_2026_EP_Continuum_Review.ipynb",
+    "source_sha256": "28fc8dee32e00a3534b3e4e398610477ff691df54f9a79dbc97702720027317f",
+    "changes": "Student number removed from code and saved outputs. Scientific cells and outputs retained."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/source/F0_Hd_Pad_Analysis_EP.ipynb",
+    "source": "F0_Hd_Pad_Analysis_EP.ipynb",
+    "source_sha256": "250c68125d0f4121976cae3b7c1b0211d9afcf391bda1f5de5850c75b3b9b65c",
+    "changes": "Student number removed from code and saved outputs. Scientific cells and outputs retained."
+  },
+  {
+    "file": "labs/01_xray_pulsar/scripts/NGC300_ULX1_recalculate.py",
+    "source": "NGC300_ULX1_AstroLab_Working_Package_Updated.zip::NGC300_ULX1_recalculate.py",
+    "changes": "Extracted without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/results/NGC300_ULX1_checked_numbers.json",
+    "source": "NGC300_ULX1_AstroLab_Working_Package_Updated.zip::NGC300_ULX1_checked_numbers.json",
+    "changes": "Extracted without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/results/NGC300_ULX1_sensitivity.csv",
+    "source": "NGC300_ULX1_AstroLab_Working_Package_Updated.zip::NGC300_ULX1_sensitivity.csv",
+    "changes": "Extracted without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/results/NGC300_ULX1_sensitivity.png",
+    "source": "NGC300_ULX1_AstroLab_Working_Package_Updated.zip::NGC300_ULX1_sensitivity.png",
+    "changes": "Extracted without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/A0.fits",
+    "source": "A0.fits",
+    "source_sha256": "7935f255c5f208f1565413d97aaf2535508a825467a27f0a510feaf4ee6ab308",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/A6_+0.0_Dwarf.fits",
+    "source": "A6_+0.0_Dwarf.fits",
+    "source_sha256": "a1b699d5f7f0b3c3d5737581a7df9d7b88789a47b81bc9cc912addebca6ea92f",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/B0.fits",
+    "source": "B0.fits",
+    "source_sha256": "c37041d1f35f482859fcda6f8c9375e8d20bfbc995cb0863d10dfc84f8efa3e1",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/B5.fits",
+    "source": "B5.fits",
+    "source_sha256": "e8bd48a1b3e12d7edeb9eee0ab115c9ccd1a8dbd1ea021aca0882ce5fe2a43d8",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/F0_+0.0_Dwarf.fits",
+    "source": "F0_+0.0_Dwarf.fits",
+    "source_sha256": "cd1b630807e040ebdf390b12ac51487126480459aadec650c02bd26b92db52d4",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/F5_+0.0_Dwarf.fits",
+    "source": "F5_+0.0_Dwarf.fits",
+    "source_sha256": "cdaf71420c9f848c9bdd6109447d73e0620ac852b39344a08132df3fa2b72077",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/G0_+0.0_Dwarf.fits",
+    "source": "G0_+0.0_Dwarf.fits",
+    "source_sha256": "d2d19ac7260566d71c8f076a9da06be8d04a6ab47b71231855ef5ea7cd490326",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/G5_+0.0_Dwarf.fits",
+    "source": "G5_+0.0_Dwarf.fits",
+    "source_sha256": "8f4b07c4c6602ac2b06cde0855d164f48095f95fdfd63d3436dd54a00a877bd9",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/K0_+0.0_Dwarf.fits",
+    "source": "K0_+0.0_Dwarf.fits",
+    "source_sha256": "b83935fe63ef0dd3edeeedefc1e0dae5a5f11c05da0c1dc58752ce3a6dc4dd5d",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/K5_+0.0_Dwarf.fits",
+    "source": "K5_+0.0_Dwarf.fits",
+    "source_sha256": "d55ac300a7f7601d202a47afac369cbaa30ac4f3f9224e7f73313d1b15835401",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/M0_+0.0_Dwarf.fits",
+    "source": "M0_+0.0_Dwarf.fits",
+    "source_sha256": "ac8b197f2fa1079974c8228ce9e3570368054e5c1e004629b88d53913c2ee09c",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/M5_+0.0_Dwarf.fits",
+    "source": "M5_+0.0_Dwarf.fits",
+    "source_sha256": "81c166fd619a9ede8c683cd42eb690b4a6a9d91823061d86057c5fc04742b7bf",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/pyHammer_templates/O5.fits",
+    "source": "O5.fits",
+    "source_sha256": "2a198ad4bbebd23fbe7dffc6e29b59ad3748adfe9ab2ae0f30487f3b15fbe81d",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "third_party/PyHammer-LICENSE.txt",
+    "source": "astro_pyhammer_license.txt",
+    "source_sha256": "27d537e65ca0baa720889a04adf29618e2d80b2004baf0338b1c8338d9af1797",
+    "changes": "Copied without changes."
+  },
+  {
+    "file": "labs/01_xray_pulsar/analysis.ipynb",
+    "source": "LAB_Xray_2026_GR_ep.ipynb",
+    "source_sha256": "31f3366e33872d66ed6b038baee8b47b8a538eb298b7d08a3bee7dd39f72de20",
+    "changes": "Student number removed. Added introduction, portable lab-folder setup and explicit input-file check; retained scientific cells and saved outputs."
+  },
+  {
+    "file": "labs/02_stellar_spectroscopy/analysis.ipynb",
+    "source": "Stellar_Spectroscopy_2026_EP_Continuum_Review.ipynb",
+    "source_sha256": "28fc8dee32e00a3534b3e4e398610477ff691df54f9a79dbc97702720027317f",
+    "changes": "Created runnable presentation from supplied measurement cells and F0 addendum; dependency order repaired, exploratory overwrite removed, result exports added. Scientific functions and chosen windows retained."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "Hdelta_EW_A": 15.552144427541673,
+  "Paschen_delta_EW_A": 5.272103151114136,
+  "Hdelta_formal_sigma_A": 0.08278562873280043,
+  "Paschen_delta_formal_sigma_A": 0.15365527227017278,
+  "population_ratio_N2_over_N3": 22.19278390112775,
+  "excitation_temperature_K": 5605.047663782106,
+  "excitation_temperature_formal_sigma_K": 42.463335332891155,
+  "F0_FITS_reference_temperature_K": 7585.0
+}
