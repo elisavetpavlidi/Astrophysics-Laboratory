@@ -1,0 +1,20 @@
+{
+  "engine": "Python faithful numerical port of provided MATLAB helpers",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "inputs_sha256": {
+    "GEOMAG.mat": "ddfae71d4cea9f519b4a32a985c785120c50d4ee8369a513a4a7d34bb5053d25",
+    "RBSP.mat": "cf691074d8cd73544b0a886f5a63db8deec3466ea42e795a2bb5dd4ddbfc13b0",
+    "RBSPenergy.mat": "92aeaa9d984b82f35712b7784d8b0161c3dcdb40cb98e2ee894577a7dc95aa2d",
+    "fourierPower.m": "ac0a074592eb14c5e360a5729d08336d4e1df86a5eee7df3bda415df41c6af0b",
+    "fourierSpectrum.m": "429b0fd90d47403d44e47aaca7712e259024ff8719ceb5dcb10b5b3fb950eb10"
+  },
+  "checks": [
+    "1 s continuous sampling, no NaN in Bgr",
+    "sinusoid squared amplitude = 25 for amplitude 5",
+    "Parseval, even and odd N",
+    "integrated 2-100 mHz >= integrated 2-7 mHz for every shared window"
+  ]
+}

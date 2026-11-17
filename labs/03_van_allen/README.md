@@ -11,6 +11,8 @@ Fourier analysis of geomagnetic variability around the March 2013 storm, compari
 | [Compare_Frequency_Bands.m](scripts/Compare_Frequency_Bands.m) | Compare frequency bands, time windows and storm phases; export figures and numerical results |
 | [fourierSpectrum.m](scripts/matlab_helpers/fourierSpectrum.m) | Calculate squared Fourier amplitudes over a selected time interval and frequency range |
 | [fourierPower.m](scripts/matlab_helpers/fourierPower.m) | Calculate mean squared Fourier amplitude in consecutive, non-overlapping windows |
+| [figures/](figures/) | Saved phase spectra and hourly power comparison in PNG and vector PDF |
+| [results/](results/) | Eight CSV tables, column definitions and the source validation record |
 
 The two Fourier helper functions are preserved unchanged from the course-provided MATLAB material.
 
@@ -51,6 +53,22 @@ The individual Fourier spectra use three equal one-hour intervals:
 | Recovery phase | 18 March 2013 | 18:00–19:00 |
 
 The original helper output is squared Fourier amplitude in nT², averaged over the selected frequency bins for the windowed profiles. It is distinct from a power spectral density in nT²/Hz and from integrated band power. The driver exports these quantities in separate columns. A wider frequency band need not have a larger **mean** squared amplitude.
+
+## Saved results
+
+The [results folder](results/) contains the numerical tables and their column definitions. The saved figures and CSV files come from the supplied Python numerical reproduction of the course MATLAB helpers.
+
+### Fourier spectra across storm phases
+
+![Fourier power spectral density before the storm, during the main phase and during recovery](figures/Bands_FFT_Phases.png)
+
+[Vector PDF](figures/Bands_FFT_Phases.pdf) · [Six spectrum tables](results/README.md#phase-spectra)
+
+### Hourly spectral density and integrated power
+
+![Hourly mean spectral density and integrated band power for both frequency bands, alongside Dst](figures/Bands_HourlyPhysical.png)
+
+[Vector PDF](figures/Bands_HourlyPhysical.pdf) · [Hourly profile tables](results/README.md#hourly-profiles)
 
 ## Outputs
 
