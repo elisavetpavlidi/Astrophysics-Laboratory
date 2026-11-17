@@ -1,0 +1,5 @@
+# Recreated analysis outputs
+/generated/
+
+# Original course input files
+/data/*.mat
