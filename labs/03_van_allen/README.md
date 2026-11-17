@@ -11,6 +11,9 @@ Geomagnetic variability and energetic electron spectra around the March 2013 sto
 | File | Purpose |
 | --- | --- |
 | [Compare_Frequency_Bands.m](scripts/Compare_Frequency_Bands.m) | Compare frequency bands, time windows and storm phases; export figures and numerical results |
+| [Geomagnetic_Analysis.m](scripts/Geomagnetic_Analysis.m) | Completed Dst, solar-wind and magnetic-wave analysis |
+| [ElectronSpectrum_Analysis.m](scripts/ElectronSpectrum_Analysis.m) | Completed electron spectra, flux profiles and power-law fits |
+| [MATLAB guide](scripts/README.md) | Entry points, data paths, outputs and helper documentation |
 | [reproduce_analysis.py](scripts/reproduce_analysis.py) | Reproduce the Fourier tables, figures and electron-spectrum calculations in Python |
 | [data/README.md](data/README.md) | Required input files and data conventions |
 | [fourierSpectrum.m](scripts/matlab_helpers/fourierSpectrum.m) | Calculate squared Fourier amplitudes over a selected time interval and frequency range |
@@ -19,11 +22,11 @@ Geomagnetic variability and energetic electron spectra around the March 2013 sto
 | [figures/](figures/) | Saved Fourier figures and original electron spectra in PNG, PDF and JPEG |
 | [results/](results/) | Fourteen processed CSV tables, numerical summary, column definitions and validation record |
 
-The two Fourier helper functions are preserved unchanged from the course-provided MATLAB material.
+The two Fourier helpers retain the supplied course implementation. The additional plotting, fitting and averaging helpers have been adapted for the completed workflow; see [helper sources and preparation notes](scripts/matlab_helpers/README.md).
 
 ## Input data
 
-The MATLAB driver uses the original course file `GEOMAG.mat`, supplied separately. Place it inside `scripts/`. It must contain:
+Place the three course input files in the shared `data/` folder; see the [data notes](data/README.md). The Fourier comparison uses these variables from `GEOMAG.mat`:
 
 | Variable | Contents |
 | --- | --- |
@@ -41,11 +44,13 @@ The Python reproduction also uses `RBSP.mat` and `RBSPenergy.mat`; see the [inpu
 Start MATLAB in the repository root, then run:
 
 ```matlab
-cd('labs/03_van_allen/scripts')
-Compare_Frequency_Bands
+addpath(fullfile(pwd,'labs','03_van_allen','scripts'));
+Geomagnetic_Analysis;
+ElectronSpectrum_Analysis;
+Compare_Frequency_Bands;
 ```
 
-The driver adds `matlab_helpers/` to the MATLAB path automatically. MATLAB must support local functions in scripts and `exportgraphics`.
+The entry points add their helper folder automatically. MATLAB must support local functions in scripts and `exportgraphics`. The [MATLAB guide](scripts/README.md) documents optional folder arguments and the completed analysis settings.
 
 ## Run in Python
 
@@ -131,12 +136,13 @@ This is Figure 6 of the final report.
 
 ## MATLAB outputs
 
-The script creates `scripts/frequency_band_comparison/` containing:
+The entry points write to `generated/matlab/geomagnetic/`, `generated/matlab/electrons/` and `generated/matlab/frequency_band_comparison/`. Outputs include:
 
 - Fourier spectra for each interval and frequency band as CSV files.
 - Time-profile tables with mean squared amplitude, mean power spectral density and integrated band power.
 - Figures in PNG, vector PDF and MATLAB FIG formats.
 - `Frequency_Band_Comparison_Results.mat` with the result structure.
 
-Native MATLAB execution has not been verified in this environment.
+All thirteen MATLAB files passed syntax analysis for MATLAB R2020a. Native MATLAB execution has not been verified in this environment; the [MATLAB guide](scripts/README.md) records the validation scope.
+
 

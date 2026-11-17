@@ -12,7 +12,7 @@ The repository brings together Python and MATLAB code, Jupyter notebooks, figure
 | --- | --- | --- |
 | [X-ray pulsar timing](labs/01_xray_pulsar/) | Period searches, spin-frequency evolution and physical parameters of NGC 300 ULX-1 | [Notebook](labs/01_xray_pulsar/analysis.ipynb) · [Parameter calculations](labs/01_xray_pulsar/scripts/NGC300_ULX1_recalculate.py) · [Report](labs/01_xray_pulsar/report/report.pdf) |
 | [Stellar spectroscopy](labs/02_stellar_spectroscopy/) | Stellar spectra, equivalent widths and an excitation-temperature estimate | [Notebook](labs/02_stellar_spectroscopy/analysis.ipynb) · [Source files](labs/02_stellar_spectroscopy/source/) · [Report](labs/02_stellar_spectroscopy/report/report.pdf) |
-| [Van Allen laboratory](labs/03_van_allen/) | Geomagnetic variability, ULF frequency bands and energetic electron spectra | [MATLAB comparison](labs/03_van_allen/scripts/Compare_Frequency_Bands.m) · [Fourier-spectrum helper](labs/03_van_allen/scripts/matlab_helpers/fourierSpectrum.m) · [Report](labs/03_van_allen/report/report.pdf) |
+| [Van Allen laboratory](labs/03_van_allen/) | Geomagnetic variability, ULF frequency bands and energetic electron spectra | [MATLAB comparison](labs/03_van_allen/scripts/Compare_Frequency_Bands.m) · [MATLAB guide](labs/03_van_allen/scripts/README.md) · [Report](labs/03_van_allen/report/report.pdf) |
 
 ## Organisation
 
@@ -39,14 +39,15 @@ Open the relevant `analysis.ipynb` notebook and follow its laboratory instructio
 
 ### MATLAB
 
-Use MATLAB for the `.m` files. Keep the required `.mat` inputs in the script's working directory and make the helper functions available on the MATLAB path, as specified in each script.
+Use MATLAB for the `.m` files and follow the data-path instructions for the relevant entry point.
 
-The Van Allen comparison uses `GEOMAG.mat`, `fourierSpectrum.m` and `fourierPower.m`. Use the original course files for dependencies that are not included in the repository.
+The [Van Allen MATLAB guide](labs/03_van_allen/scripts/README.md) covers geomagnetic analysis, electron spectra and frequency-band comparisons. The entry points load the shared `labs/03_van_allen/data/` inputs and add their helper folder automatically.
 
 ## Credits and provenance
 
 Student analyses, parameter choices, extensions, interpretation and reports are by **Elisavet Pavlidi**.
 
-The X-ray timing and stellar spectroscopy exercises build on teaching notebooks by **Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro))**. Additional teaching contributors, original sources and permissions notes are listed in [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md). The Van Allen Fourier-spectrum helper is preserved from the course-provided MATLAB material.
+The X-ray timing and stellar spectroscopy exercises build on teaching notebooks by **Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro))**. Additional teaching contributors, original sources and permissions notes are listed in [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md). The Van Allen MATLAB workflow builds on course-provided helpers; their adaptations are documented in the [helper notes](labs/03_van_allen/scripts/matlab_helpers/README.md).
 
 See [provenance](docs/PROVENANCE.md) and [validation](docs/VALIDATION.md) for source preparation and documented checks.
+

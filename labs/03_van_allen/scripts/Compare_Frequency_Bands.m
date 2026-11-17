@@ -1,8 +1,7 @@
 %% Compare_Frequency_Bands.m
 % Elisavet Pavlidi - Van Allen laboratory
 % Controlled comparison of 2-7 and 2-100 mHz using the ORIGINAL lab helpers.
-% Required in the current folder / MATLAB path:
-%   GEOMAG.mat, fourierSpectrum.m, fourierPower.m
+% Input: GEOMAG.mat in the lab data folder; helpers are loaded automatically.
 % The accompanying Python script executed a faithful numerical port of the
 % uploaded helpers on the supplied .mat files. This MATLAB driver is also
 % provided for native reproduction; no MATLAB runtime was available here.
@@ -17,14 +16,18 @@
 % These relations hold for the selected positive, non-Nyquist frequencies.
 
 clearvars; close all; clc;
-if isfolder('matlab_helpers'), addpath('matlab_helpers'); end
-assert(isfile('GEOMAG.mat'), 'Place GEOMAG.mat in the current folder.');
+scriptDir = fileparts(mfilename('fullpath'));
+labDir = fileparts(scriptDir);
+addpath(fullfile(scriptDir,'matlab_helpers'));
+dataFile = fullfile(labDir,'data','GEOMAG.mat');
+if ~isfile(dataFile) && isfile('GEOMAG.mat'), dataFile = 'GEOMAG.mat'; end
+assert(isfile(dataFile), 'Place GEOMAG.mat in the lab data folder.');
 assert(exist('fourierSpectrum','file') == 2, 'Missing fourierSpectrum.m');
 assert(exist('fourierPower','file') == 2, 'Missing fourierPower.m');
-D = load('GEOMAG.mat');
+D = load(dataFile);
 assert(all(isfield(D, {'Bgr_time','Bgr','Dst_time','Dst'})), ...
     'GEOMAG.mat must contain Bgr_time, Bgr, Dst_time and Dst.');
-outDir = 'frequency_band_comparison';
+outDir = fullfile(labDir,'generated','matlab','frequency_band_comparison');
 if ~isfolder(outDir), mkdir(outDir); end
 bands = [0.002 0.007; 0.002 0.100];
 bandNames = {'Pc5: 2-7 mHz','Pc5 + Pc4 + Pc3: 2-100 mHz'};
