@@ -17,7 +17,7 @@ Geomagnetic variability and energetic electron spectra around the March 2013 sto
 | [fourierPower.m](scripts/matlab_helpers/fourierPower.m) | Calculate mean squared Fourier amplitude in consecutive, non-overlapping windows |
 | [report/report.pdf](report/report.pdf) | Written laboratory report in Greek |
 | [figures/](figures/) | Saved Fourier figures and original electron spectra in PNG, PDF and JPEG |
-| [results/](results/) | Fourier tables, electron spectra, column definitions and the source validation record |
+| [results/](results/) | Fourteen processed CSV tables, numerical summary, column definitions and validation record |
 
 The two Fourier helper functions are preserved unchanged from the course-provided MATLAB material.
 
@@ -89,7 +89,7 @@ The original helper output is squared Fourier amplitude in nT², averaged over t
 
 ## Saved results
 
-The [results folder](results/) contains the numerical tables and their column definitions. The Fourier figures and numerical tables come from the supplied Python numerical reproduction of the course MATLAB helpers. The electron spectrum images are the original plots retained in the report.
+The [results folder](results/) contains the final processed numerical outputs and their column definitions. The project's Python reproduction generates the fourteen CSV tables and [numerical summary](results/summary.json). The four Fourier comparison figures correspond to Figures 4–7 of the final report; the electron spectrum plots are also retained in that report.
 
 ### Fourier spectra across storm phases
 
@@ -103,6 +103,22 @@ The [results folder](results/) contains the numerical tables and their column de
 
 [Vector PDF](figures/Bands_HourlyPhysical.pdf) · [Hourly profile tables](results/README.md#hourly-profiles)
 
+### Frequency-band comparison with mean squared amplitude
+
+![Processed comparison of both frequency bands with 1000-second and 3600-second windows, alongside Dst](figures/Bands_OriginalNormalization.png)
+
+[Vector PDF](figures/Bands_OriginalNormalization.pdf) · [1000-second profile tables](results/README.md#1000-second-profiles)
+
+This is Figure 4 of the final report. “Original normalization” identifies the amplitude-squared convention used for the comparison.
+
+### Dependence on the time window
+
+![Final comparison of mean power spectral density with 1000-second and 3600-second windows for both bands](figures/Bands_WindowSensitivity.png)
+
+[Vector PDF](figures/Bands_WindowSensitivity.pdf) · [Window comparison and numerical summary](results/README.md#numerical-summary)
+
+This is Figure 6 of the final report.
+
 ### Electron energy spectra
 
 | Phase | Figure | Numerical table |
@@ -111,7 +127,7 @@ The [results folder](results/) contains the numerical tables and their column de
 | Main phase | [Spectrum](figures/MainPhase_Spectrum.jpg) | [CSV](results/electrons/electron_Main.csv) |
 | Recovery | [Spectrum](figures/RecoveryPhase_Spectrum.jpg) | [CSV](results/electrons/electron_Recovery.csv) |
 
-[Intervals, flux units and interpretation](results/electrons/README.md) · [Full report](report/report.pdf)
+[Intervals, flux units and interpretation](results/electrons/README.md) · [12:00 start-time comparison](results/electrons/electron_Pre12.csv) · [Fit parameters and summary](results/summary.json) · [Full report](report/report.pdf)
 
 ## MATLAB outputs
 
