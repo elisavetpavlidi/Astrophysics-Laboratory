@@ -2,7 +2,9 @@
 
 **Elisavet Pavlidi · Department of Physics, NKUA · 2026–2027**
 
-Fourier analysis of geomagnetic variability around the March 2013 storm, comparing the 2–7 mHz and 2–100 mHz frequency bands.
+Geomagnetic variability and energetic electron spectra around the March 2013 storm, combining Fourier analysis of magnetic fluctuations with Van Allen Probes measurements.
+
+[Read the full laboratory report (PDF)](report/report.pdf)
 
 ## Files
 
@@ -11,8 +13,9 @@ Fourier analysis of geomagnetic variability around the March 2013 storm, compari
 | [Compare_Frequency_Bands.m](scripts/Compare_Frequency_Bands.m) | Compare frequency bands, time windows and storm phases; export figures and numerical results |
 | [fourierSpectrum.m](scripts/matlab_helpers/fourierSpectrum.m) | Calculate squared Fourier amplitudes over a selected time interval and frequency range |
 | [fourierPower.m](scripts/matlab_helpers/fourierPower.m) | Calculate mean squared Fourier amplitude in consecutive, non-overlapping windows |
-| [figures/](figures/) | Saved phase spectra and hourly power comparison in PNG and vector PDF |
-| [results/](results/) | Eight CSV tables, column definitions and the source validation record |
+| [report/report.pdf](report/report.pdf) | Written laboratory report in Greek |
+| [figures/](figures/) | Saved Fourier figures and original electron spectra in PNG, PDF and JPEG |
+| [results/](results/) | Fourier tables, electron spectra, column definitions and the source validation record |
 
 The two Fourier helper functions are preserved unchanged from the course-provided MATLAB material.
 
@@ -56,7 +59,7 @@ The original helper output is squared Fourier amplitude in nT², averaged over t
 
 ## Saved results
 
-The [results folder](results/) contains the numerical tables and their column definitions. The saved figures and CSV files come from the supplied Python numerical reproduction of the course MATLAB helpers.
+The [results folder](results/) contains the numerical tables and their column definitions. The Fourier figures and numerical tables come from the supplied Python numerical reproduction of the course MATLAB helpers. The electron spectrum images are the original plots retained in the report.
 
 ### Fourier spectra across storm phases
 
@@ -69,6 +72,16 @@ The [results folder](results/) contains the numerical tables and their column de
 ![Hourly mean spectral density and integrated band power for both frequency bands, alongside Dst](figures/Bands_HourlyPhysical.png)
 
 [Vector PDF](figures/Bands_HourlyPhysical.pdf) · [Hourly profile tables](results/README.md#hourly-profiles)
+
+### Electron energy spectra
+
+| Phase | Figure | Numerical table |
+| --- | --- | --- |
+| Before the storm | [Spectrum](figures/PreStorm_Spectrum.jpg) | [CSV](results/electrons/electron_Pre14.csv) |
+| Main phase | [Spectrum](figures/MainPhase_Spectrum.jpg) | [CSV](results/electrons/electron_Main.csv) |
+| Recovery | [Spectrum](figures/RecoveryPhase_Spectrum.jpg) | [CSV](results/electrons/electron_Recovery.csv) |
+
+[Intervals, flux units and interpretation](results/electrons/README.md) · [Full report](report/report.pdf)
 
 ## Outputs
 

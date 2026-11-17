@@ -12,7 +12,7 @@ The repository brings together Python and MATLAB code, Jupyter notebooks, figure
 | --- | --- | --- |
 | [X-ray pulsar timing](labs/01_xray_pulsar/) | Period searches, spin-frequency evolution and physical parameters of NGC 300 ULX-1 | [Notebook](labs/01_xray_pulsar/analysis.ipynb) · [Parameter calculations](labs/01_xray_pulsar/scripts/NGC300_ULX1_recalculate.py) · [Report](labs/01_xray_pulsar/report/report.pdf) |
 | [Stellar spectroscopy](labs/02_stellar_spectroscopy/) | Stellar spectra, equivalent widths and an excitation-temperature estimate | [Notebook](labs/02_stellar_spectroscopy/analysis.ipynb) · [Source files](labs/02_stellar_spectroscopy/source/) · [Report](labs/02_stellar_spectroscopy/report/report.pdf) |
-| [Van Allen laboratory](labs/03_van_allen/) | Geomagnetic variability, Fourier analysis and comparison of ULF frequency bands | [MATLAB comparison](labs/03_van_allen/scripts/Compare_Frequency_Bands.m) · [Fourier-spectrum helper](labs/03_van_allen/scripts/matlab_helpers/fourierSpectrum.m) |
+| [Van Allen laboratory](labs/03_van_allen/) | Geomagnetic variability, ULF frequency bands and energetic electron spectra | [MATLAB comparison](labs/03_van_allen/scripts/Compare_Frequency_Bands.m) · [Fourier-spectrum helper](labs/03_van_allen/scripts/matlab_helpers/fourierSpectrum.m) · [Report](labs/03_van_allen/report/report.pdf) |
 
 ## Organisation
 
