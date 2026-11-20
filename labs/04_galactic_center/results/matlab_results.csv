@@ -1,0 +1,11 @@
+quantity,value,unit,origin
+black_hole_mass,3176300,solar_masses,MAT3
+orbital_eccentricity,0.687,dimensionless,MAT2_trial_1
+orbital_inclination,50.15,degrees,MAT2_trial_1_unsigned
+projected_node_frame_rotation,119.54,degrees,MAT2_trial_1
+semilatus_rectum,5.56,pixels,MAT2_trial_1
+periapsis_distance,259,AU,lab_derivation
+schwarzschild_radius,0.063,AU,lab_derivation
+periapsis_over_schwarzschild_radius,4100,dimensionless,lab_derivation
+precession_regression_slope,0.84756,dimensionless,recorded_MAT4_MATLAB_Online
+precession_regression_95ci_half_width,0.17692,dimensionless,recorded_MAT4_MATLAB_Online

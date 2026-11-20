@@ -13,6 +13,7 @@ The repository brings together Python and MATLAB code, Jupyter notebooks, figure
 | [X-ray pulsar timing](labs/01_xray_pulsar/) | Period searches, spin-frequency evolution and physical parameters of NGC 300 ULX-1 | [Notebook](labs/01_xray_pulsar/analysis.ipynb) · [Parameter calculations](labs/01_xray_pulsar/scripts/NGC300_ULX1_recalculate.py) · [Report](labs/01_xray_pulsar/report/report.pdf) |
 | [Stellar spectroscopy](labs/02_stellar_spectroscopy/) | Stellar spectra, equivalent widths and an excitation-temperature estimate | [Notebook](labs/02_stellar_spectroscopy/analysis.ipynb) · [Source files](labs/02_stellar_spectroscopy/source/) · [Report](labs/02_stellar_spectroscopy/report/report.pdf) |
 | [Van Allen laboratory](labs/03_van_allen/) | Geomagnetic variability, ULF frequency bands and energetic electron spectra | [MATLAB comparison](labs/03_van_allen/scripts/Compare_Frequency_Bands.m) · [MATLAB guide](labs/03_van_allen/scripts/README.md) · [Report](labs/03_van_allen/report/report.pdf) |
+| [S2 and Sagittarius A*](labs/04_galactic_center/) | Astrometry in SAOImage DS9, orbital reconstruction, central mass and a test for Schwarzschild precession | [Analysis and results](labs/04_galactic_center/) · [MATLAB scripts](labs/04_galactic_center/scripts/matlab/) · [Report](labs/04_galactic_center/report/report.pdf) |
 
 ## Organisation
 
@@ -48,6 +49,8 @@ The [Van Allen MATLAB guide](labs/03_van_allen/scripts/README.md) covers geomagn
 Student analyses, parameter choices, extensions, interpretation and reports are by **Elisavet Pavlidi**.
 
 The X-ray timing and stellar spectroscopy exercises build on teaching notebooks by **Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro))**. Additional teaching contributors, original sources and permissions notes are listed in [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md). The Van Allen MATLAB workflow builds on course-provided helpers; their adaptations are documented in the [helper notes](labs/03_van_allen/scripts/matlab_helpers/README.md).
+
+The Galactic Centre exercise is based on laboratory material prepared by **Theocharis Apostolatos** and **Kosmas Gazeas**. [S2 exercise and references](labs/04_galactic_center/)
 
 See [provenance](docs/PROVENANCE.md) and [validation](docs/VALIDATION.md) for source preparation and documented checks.
 
