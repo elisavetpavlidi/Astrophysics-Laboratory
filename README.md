@@ -44,11 +44,6 @@ Use MATLAB for the `.m` files and follow the data-path instructions for the rele
 
 The [Van Allen MATLAB guide](labs/03_van_allen/scripts/README.md) covers geomagnetic analysis, electron spectra and frequency-band comparisons. The entry points load the shared `labs/03_van_allen/data/` inputs and add their helper folder automatically.
 
-## Credits and provenance
-
-Student analyses, parameter choices, extensions, interpretation and reports are by **Elisavet Pavlidi**.
-
-The X-ray timing and stellar spectroscopy exercises build on teaching notebooks by **Georgios Vasilopoulos ([gevas-astro](https://github.com/gevas-astro))**. Additional teaching contributors, original sources and permissions notes are listed in [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md). The Van Allen MATLAB workflow builds on course-provided helpers; their adaptations are documented in the [helper notes](labs/03_van_allen/scripts/matlab_helpers/README.md).
 
 The Galactic Centre exercise is based on laboratory material prepared by **Theocharis Apostolatos** and **Kosmas Gazeas**. [S2 exercise and references](labs/04_galactic_center/)
 
