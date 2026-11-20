@@ -47,5 +47,5 @@ The [Van Allen MATLAB guide](labs/03_van_allen/scripts/README.md) covers geomagn
 
 The Galactic Centre exercise is based on laboratory material prepared by **Theocharis Apostolatos** and **Kosmas Gazeas**. [S2 exercise and references](labs/04_galactic_center/)
 
-See [provenance](docs/PROVENANCE.md) and [validation](docs/VALIDATION.md) for source preparation and documented checks.
+See [source provenance](docs/PROVENANCE.md) for the teaching material used in the X-ray pulsar timing and stellar spectroscopy exercises.
 
