@@ -19,8 +19,19 @@ The interval for the recorded MATLAB Online slope includes the Newtonian value o
 
 - [Lab report (Greek)](report/report.pdf), [measured positions](data/astrometry.csv), [synthetic trials](results/mat1_trials.csv), [orbit-fit trials](results/mat2_trials.csv) and [reported results](results/matlab_results.csv).
 - [MAT0 and MAT2 diagnostics](figures/), [MAT3 mass-fit plot](figures/mat3_swept_area.png) and [recorded MAT4 plot](figures/mat4_matlab.png).
-- Run `addpath('scripts/matlab')` from this lab folder in MATLAB, followed by `analyze_s2` for the trial fits, mass calculation and precession check, or `plot_synthetic_trials` to visualize the six MAT1 setups. These public scripts are student-side implementations of the teaching workflow. The synthetic plot uses a fixed seed, and the published worksheet records the original MAT1 outputs. The recalculation of MAT4 from the rounded astrometric table yields approximately 0.8670 ± 0.1142. The archived MATLAB Online run (0.84756 ± 0.17692) supplies the reported value and figure. The cause of the difference between the two runs has not been established.
-- A separate [FITS sensitivity analysis](results/fits_check/) explores centroiding, the chosen black-hole position, the 1999 epoch and the impact of fitting the projected orbit directly. To rerun it, install NumPy, SciPy, Matplotlib and Pillow, then run `python scripts/python/analyze_s2.py /path/to/blackholeimages.zip --output results/fits_check` from this folder. The input FITS archive is distributed with the course. `replay_fits_check` repeats the mass and angle fits on this separate data set in MATLAB.
+- [Twelve-epoch image animation](figures/animation.gif) used for the DS9 astrometry.
+
+### Running the MATLAB scripts
+
+Open [`scripts/matlab/`](scripts/matlab/) as the current folder in MATLAB. The orbit and precession fits use Curve Fitting Toolbox.
+
+1. Run `MAT1_26` for the synthetic projection and noise test. Use the input parameters in the [MAT1 trial table](results/mat1_trials.csv).
+2. Run `MAT0_26` to process the measured DS9 positions and write `DATAfile.mat`.
+3. Run `MAT2_26` to fit the orbit and write `MAT_DATA_phys.mat`.
+4. Run `MAT3_26` with `J.m` in the same folder to estimate the mass. Enter the scales `1.177366744e13` metres per pixel and `3.168808781e-8` inverse seconds.
+5. Run `MAT4_26` for the precession regression. The [recorded MATLAB result](results/matlab_results.csv) corresponds to the run presented in the report. MAT1 and MAT2 use random draws, so a new run can return a different fit.
+
+The [FITS sensitivity-check outputs](results/fits_check/) document a supplementary comparison with the image-based centroiding analysis.
 
 ## References
 
