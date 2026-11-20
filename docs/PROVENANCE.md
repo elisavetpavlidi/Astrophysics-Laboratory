@@ -24,4 +24,4 @@ The X-ray base notebook was identified as `gevas-astro/EKPA_LAB2022W_XRay/LAB_Xr
 
 The public spectroscopy teaching README in `gevas-astro/ASTRO_Python_tutotial/Spectral_Lines` credits M. Papachristou, G. Vasilopoulos and D. Hatzidimitriou. The public `LabSpectra_v4.ipynb` is an earlier teaching version; no claim of byte-for-byte identity to the separately supplied 2026 course notebook is made.
 
-Attributions were added to both runnable notebook headers, their READMEs, the root README and citation metadata. Code cells and saved outputs were checked to remain unchanged. Full citations and licence observations are recorded in `ACKNOWLEDGEMENTS.md`.
+The runnable notebook headers, lab READMEs and citation metadata record source attributions. No explicit redistribution licence was identified for the 2026 X-ray teaching notebook. The MIT notice in `third_party/Gevas-ASTRO-Python-MIT-LICENSE.txt` applies to the public `ASTRO_Python_tutotial` repository.
